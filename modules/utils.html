@@ -1,0 +1,395 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>utils | ChatSift</title>
+	<meta name="description" content="Documentation for ChatSift">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">ChatSift</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="utils.html">utils</a>
+				</li>
+			</ul>
+			<h1>Module utils</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<a href="#chatsiftutils" id="chatsiftutils" style="color: inherit; text-decoration: none;">
+						<h1><code>@chatsift/utils</code></h1>
+					</a>
+					<p><a href="https://github.com/ChatSift/packages/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GNU%20AGPLv3-yellow.svg" alt="GitHub"></a>
+						<a href="https://www.npmjs.com/package/@chatsift/utils"><img src="https://img.shields.io/npm/v/@chatsift/utils?color=crimson&logo=npm" alt="npm"></a>
+					<a href="https://github.com/ChatSift/packages/actions/workflows/quality.yml"><img src="https://github.com/ChatSift/packages/actions/workflows/quality.yml/badge.svg" alt="TypeScript"></a></p>
+					<p>General purpose functions and types that should really be language standard</p>
+					<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
+						<h2>Installation</h2>
+					</a>
+					<ul>
+						<li><code>npm install @chatsift/utils</code></li>
+						<li><code>pnpm install @chatsift/utils</code></li>
+						<li><code>yarn add @chatsift/utils</code></li>
+					</ul>
+					<a href="#contributing" id="contributing" style="color: inherit; text-decoration: none;">
+						<h2>Contributing</h2>
+					</a>
+					<p>Please see the main <a href="https://github.com/ChatSift/packages">README.md</a> for info on how to contribute to this package or the other <code>@chatsift</code> packages.</p>
+					<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+						<h2>LICENSE</h2>
+					</a>
+					<p>This project is licensed under the GNU AGPLv3 license.</p>
+					<p>It should, however, be noted that some packages are forks of other open source projects, and are therefore, sub-licensed.</p>
+				</div>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Type aliases</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter"><a href="utils.html#arrayt" class="tsd-kind-icon">ArrayT</a></li>
+								<li class="tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter"><a href="utils.html#nullableproperties" class="tsd-kind-icon">Nullable<wbr>Properties</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Functions</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter"><a href="utils.html#chunkarray" class="tsd-kind-icon">chunk<wbr>Array</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter"><a href="utils.html#groupby" class="tsd-kind-icon">group<wbr>By</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Type aliases</h2>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
+					<a name="arrayt" class="tsd-anchor"></a>
+					<h3>ArrayT</h3>
+					<div class="tsd-signature tsd-kind-icon">ArrayT&lt;Ts&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Ts</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-symbol">infer </span> T<span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> ? </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">never</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/utils/src/index.ts#L21">packages/utils/src/index.ts:21</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets the <code>T</code> type from a <code>T[]</code> type.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-ts"><span class="hljs-keyword">type</span> Data = (<span class="hljs-built_in">string</span> | <span class="hljs-built_in">number</span> | Very | Complex | Union)[];
+<span class="hljs-keyword">type</span> T = ArrayT&lt;Data&gt;; <span class="hljs-comment">// string | number | Very | Complex | Union</span>
+</code></pre>
+							</dd>
+						</dl>
+					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>Ts</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
+					<a name="nullableproperties" class="tsd-anchor"></a>
+					<h3>Nullable<wbr>Properties</h3>
+					<div class="tsd-signature tsd-kind-icon">Nullable<wbr>Properties&lt;T, K&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/utils/src/index.ts#L8">packages/utils/src/index.ts:8</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Creates a union type from 2 sub-types: <code>T</code> itself and <code>T</code> where all the <code>K</code> keys become null.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-ts"><span class="hljs-keyword">type</span> Data = NullableProperties&lt;{ <span class="hljs-attr">x</span>: <span class="hljs-built_in">string</span>; y: <span class="hljs-built_in">string</span>; z: <span class="hljs-built_in">string</span> }, <span class="hljs-string">&#x27;x&#x27;</span> | <span class="hljs-string">&#x27;y&#x27;</span>&gt;; <span class="hljs-comment">// { x: string; y: string; z: string } | { x: string; y: null; z: null }</span>
+</code></pre>
+							</dd>
+						</dl>
+					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>T<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li>
+							<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">keyof </span><span class="tsd-signature-type">T</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+					<a name="chunkarray" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> chunk<wbr>Array</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+						<li class="tsd-signature tsd-kind-icon">chunk<wbr>Array&lt;T&gt;<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, size<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/utils/src/index.ts#L52">packages/utils/src/index.ts:52</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Splits an array into chunks of a given size</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-ts"><span class="hljs-keyword">const</span> data = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>, <span class="hljs-number">9</span>, <span class="hljs-number">10</span>];
+<span class="hljs-keyword">const</span> chunks = chunkArray(data, <span class="hljs-number">3</span>); <span class="hljs-comment">// [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10]]</span>
+</code></pre>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>array: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>The array to split</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<h5>size: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>How big each chunk should be</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+					<a name="groupby" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> group<wbr>By</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+						<li class="tsd-signature tsd-kind-icon">group<wbr>By&lt;T, R&gt;<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, grouper<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/utils/src/index.ts#L33">packages/utils/src/index.ts:33</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>&quot;Groups&quot; the elements of an array based off of a grouper function</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-ts"><span class="hljs-keyword">const</span> data = [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>];
+<span class="hljs-keyword">const</span> grouper = <span class="hljs-function">(<span class="hljs-params">x: <span class="hljs-built_in">number</span></span>) =&gt;</span> x % <span class="hljs-number">2</span> === <span class="hljs-number">0</span> ? <span class="hljs-string">&#x27;even&#x27;</span> : <span class="hljs-string">&#x27;odd&#x27;</span>;
+<span class="hljs-keyword">const</span> grouped = groupBy(data, grouper); <span class="hljs-comment">// { even: [0, 2, 4, 6], odd: [1, 3, 5] }</span>
+</code></pre>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T</h4>
+								</li>
+								<li>
+									<h4>R<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>array: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>The array to group</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<h5>grouper: <span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">R</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Function returning a key for each element</p>
+										</div>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">R</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>element: <span class="tsd-signature-type">T</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">R</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="discord_utils.html">discord-<wbr>utils</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="readdir.html">readdir</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="rest_utils.html">rest-<wbr>utils</a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="utils.html">utils</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-module">
+						<a href="discord_utils.html" class="tsd-kind-icon">discord-<wbr>utils</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="readdir.html" class="tsd-kind-icon">readdir</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="rest_utils.html" class="tsd-kind-icon">rest-<wbr>utils</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-module">
+						<a href="utils.html" class="tsd-kind-icon">utils</a>
+						<ul>
+							<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
+								<a href="utils.html#arrayt" class="tsd-kind-icon">ArrayT</a>
+							</li>
+							<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
+								<a href="utils.html#nullableproperties" class="tsd-kind-icon">Nullable<wbr>Properties</a>
+							</li>
+							<li class=" tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+								<a href="utils.html#chunkarray" class="tsd-kind-icon">chunk<wbr>Array</a>
+							</li>
+							<li class=" tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+								<a href="utils.html#groupby" class="tsd-kind-icon">group<wbr>By</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

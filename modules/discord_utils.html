@@ -1,0 +1,424 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>discord-utils | ChatSift</title>
+	<meta name="description" content="Documentation for ChatSift">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">ChatSift</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="discord_utils.html">discord-utils</a>
+				</li>
+			</ul>
+			<h1>Module discord-utils</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<a href="#chatsiftdiscord-utils" id="chatsiftdiscord-utils" style="color: inherit; text-decoration: none;">
+						<h1><code>@chatsift/discord-utils</code></h1>
+					</a>
+					<p><a href="https://github.com/ChatSift/packages/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GNU%20AGPLv3-yellow.svg" alt="GitHub"></a>
+						<a href="https://www.npmjs.com/package/@chatsift/discord-utils"><img src="https://img.shields.io/npm/v/@chatsift/discord-utils?color=crimson&logo=npm" alt="npm"></a>
+					<a href="https://github.com/ChatSift/packages/actions/workflows/quality.yml"><img src="https://github.com/ChatSift/packages/actions/workflows/quality.yml/badge.svg" alt="TypeScript"></a></p>
+					<p>Niche utilities for working with Discord&#39;s API</p>
+					<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
+						<h2>Installation</h2>
+					</a>
+					<ul>
+						<li><code>npm install @chatsift/discord-utils</code></li>
+						<li><code>pnpm install @chatsift/discord-utils</code></li>
+						<li><code>yarn add @chatsift/discord-utils</code></li>
+					</ul>
+					<a href="#contributing" id="contributing" style="color: inherit; text-decoration: none;">
+						<h2>Contributing</h2>
+					</a>
+					<p>Please see the main <a href="https://github.com/ChatSift/packages">README.md</a> for info on how to contribute to this package or the other <code>@chatsift</code> packages.</p>
+					<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+						<h2>LICENSE</h2>
+					</a>
+					<p>This project is licensed under the GNU AGPLv3 license.</p>
+					<p>It should, however, be noted that some packages are forks of other open source projects, and are therefore, sub-licensed.</p>
+				</div>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Variables</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-variable tsd-parent-kind-module"><a href="discord_utils.html#message_limits" class="tsd-kind-icon">MESSAGE_<wbr>LIMITS</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Functions</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="discord_utils.html#addfields" class="tsd-kind-icon">add<wbr>Fields</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="discord_utils.html#ellipsis" class="tsd-kind-icon">ellipsis</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="discord_utils.html#truncateembed" class="tsd-kind-icon">truncate<wbr>Embed</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Variables</h2>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module">
+					<a name="message_limits" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> MESSAGE_<wbr>LIMITS</h3>
+					<div class="tsd-signature tsd-kind-icon">MESSAGE_<wbr>LIMITS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>CONTENT<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">4000</span><span class="tsd-signature-symbol">; </span>EMBED_COUNT<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">10</span><span class="tsd-signature-symbol">; </span>EMBEDS<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = {/*** How long a message can be in characters*/CONTENT: 4000,/*** How many embeds can be in a message*/EMBED_COUNT: 10,/*** Embed specific limits*/EMBEDS: {/*** How long an embed title can be in characters*/TITLE: 256,/*** How long an embed description can be in characters*/DESCRIPTION: 4096,/*** How long an embed footer can be in characters*/FOOTER: 2048,/*** How long an embed author can be in characters*/AUTHOR: 256,/*** How many fields an embed can have*/FIELD_COUNT: 25,/*** Field specific limits*/FIELDS: {/*** How long a field name can be in characters*/NAME: 256,/*** How long a field value can be in characters*/VALUE: 1024,},},} as const</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/discord-utils/src/embed.ts#L6">packages/discord-utils/src/embed.ts:6</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Limits commonly encountered with Discord&#39;s API</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>CONTENT<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">4000</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<div class="lead">
+										<p>How long a message can be in characters</p>
+									</div>
+								</div>
+							</li>
+							<li class="tsd-parameter">
+								<h5>EMBED_<wbr>COUNT<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">10</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<div class="lead">
+										<p>How many embeds can be in a message</p>
+									</div>
+								</div>
+							</li>
+							<li class="tsd-parameter">
+								<h5>EMBEDS<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<div class="lead">
+										<p>Embed specific limits</p>
+									</div>
+								</div>
+								<ul class="tsd-parameters">
+									<li class="tsd-parameter">
+										<h5>AUTHOR<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">256</span></h5>
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>How long an embed author can be in characters</p>
+											</div>
+										</div>
+									</li>
+									<li class="tsd-parameter">
+										<h5>DESCRIPTION<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">4096</span></h5>
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>How long an embed description can be in characters</p>
+											</div>
+										</div>
+									</li>
+									<li class="tsd-parameter">
+										<h5>FIELD_<wbr>COUNT<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">25</span></h5>
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>How many fields an embed can have</p>
+											</div>
+										</div>
+									</li>
+									<li class="tsd-parameter">
+										<h5>FOOTER<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">2048</span></h5>
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>How long an embed footer can be in characters</p>
+											</div>
+										</div>
+									</li>
+									<li class="tsd-parameter">
+										<h5>TITLE<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">256</span></h5>
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>How long an embed title can be in characters</p>
+											</div>
+										</div>
+									</li>
+									<li class="tsd-parameter">
+										<h5>FIELDS<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></h5>
+										<div class="tsd-comment tsd-typography">
+											<div class="lead">
+												<p>Field specific limits</p>
+											</div>
+										</div>
+										<ul class="tsd-parameters">
+											<li class="tsd-parameter">
+												<h5>NAME<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">256</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<div class="lead">
+														<p>How long a field name can be in characters</p>
+													</div>
+												</div>
+											</li>
+											<li class="tsd-parameter">
+												<h5>VALUE<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">1024</span></h5>
+												<div class="tsd-comment tsd-typography">
+													<div class="lead">
+														<p>How long a field value can be in characters</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="addfields" class="tsd-anchor"></a>
+					<h3>add<wbr>Fields</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Fields<span class="tsd-signature-symbol">(</span>embed<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">APIEmbed</span>, <span class="tsd-signature-symbol">...</span>fields<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">APIEmbedField</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">APIEmbed</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/discord-utils/src/embed.ts#L60">packages/discord-utils/src/embed.ts:60</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Adds the given fields to an embed - mutating it</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>embed: <span class="tsd-signature-type">APIEmbed</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The embed to add fields to</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>fields: <span class="tsd-signature-type">APIEmbedField</span><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The fields to add</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">APIEmbed</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="ellipsis" class="tsd-anchor"></a>
+					<h3>ellipsis</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">ellipsis<span class="tsd-signature-symbol">(</span>text<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, total<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/discord-utils/src/embed.ts#L70">packages/discord-utils/src/embed.ts:70</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Cuts off text after the given length - appending &quot;...&quot; at the end</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>text: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The text to cut off</p>
+									</div>
+								</li>
+								<li>
+									<h5>total: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The maximum length of the text</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="truncateembed" class="tsd-anchor"></a>
+					<h3>truncate<wbr>Embed</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">truncate<wbr>Embed<span class="tsd-signature-symbol">(</span>embed<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">APIEmbed</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">APIEmbed</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/discord-utils/src/embed.ts#L87">packages/discord-utils/src/embed.ts:87</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a fully truncated embed - safe to use with Discord&#39;s API - does not mutate the given embed</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>embed: <span class="tsd-signature-type">APIEmbed</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The embed to truncate</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">APIEmbed</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="discord_utils.html">discord-<wbr>utils</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="readdir.html">readdir</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="rest_utils.html">rest-<wbr>utils</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="utils.html">utils</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-module">
+						<a href="discord_utils.html" class="tsd-kind-icon">discord-<wbr>utils</a>
+						<ul>
+							<li class=" tsd-kind-variable tsd-parent-kind-module">
+								<a href="discord_utils.html#message_limits" class="tsd-kind-icon">MESSAGE_<wbr>LIMITS</a>
+							</li>
+							<li class=" tsd-kind-function tsd-parent-kind-module">
+								<a href="discord_utils.html#addfields" class="tsd-kind-icon">add<wbr>Fields</a>
+							</li>
+							<li class=" tsd-kind-function tsd-parent-kind-module">
+								<a href="discord_utils.html#ellipsis" class="tsd-kind-icon">ellipsis</a>
+							</li>
+							<li class=" tsd-kind-function tsd-parent-kind-module">
+								<a href="discord_utils.html#truncateembed" class="tsd-kind-icon">truncate<wbr>Embed</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-module">
+						<a href="readdir.html" class="tsd-kind-icon">readdir</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="rest_utils.html" class="tsd-kind-icon">rest-<wbr>utils</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="utils.html" class="tsd-kind-icon">utils</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
