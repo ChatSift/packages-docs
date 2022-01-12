@@ -105,6 +105,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="discord_utils.html#addfields" class="tsd-kind-icon">add<wbr>Fields</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="discord_utils.html#ellipsis" class="tsd-kind-icon">ellipsis</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="discord_utils.html#sortchannels" class="tsd-kind-icon">sort<wbr>Channels</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="discord_utils.html#truncateembed" class="tsd-kind-icon">truncate<wbr>Embed</a></li>
 							</ul>
 						</section>
@@ -119,7 +120,7 @@
 					<div class="tsd-signature tsd-kind-icon">MESSAGE_<wbr>LIMITS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>CONTENT<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">4000</span><span class="tsd-signature-symbol">; </span>EMBED_COUNT<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">10</span><span class="tsd-signature-symbol">; </span>EMBEDS<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = {/*** How long a message can be in characters*/CONTENT: 4000,/*** How many embeds can be in a message*/EMBED_COUNT: 10,/*** Embed specific limits*/EMBEDS: {/*** How long an embed title can be in characters*/TITLE: 256,/*** How long an embed description can be in characters*/DESCRIPTION: 4096,/*** How long an embed footer can be in characters*/FOOTER: 2048,/*** How long an embed author can be in characters*/AUTHOR: 256,/*** How many fields an embed can have*/FIELD_COUNT: 25,/*** Field specific limits*/FIELDS: {/*** How long a field name can be in characters*/NAME: 256,/*** How long a field value can be in characters*/VALUE: 1024,},},} as const</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/discord-utils/src/embed.ts#L6">packages/discord-utils/src/embed.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/ChatSift/packages/blob/6b87b19/packages/discord-utils/src/embed.ts#L6">packages/discord-utils/src/embed.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -238,7 +239,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/discord-utils/src/embed.ts#L60">packages/discord-utils/src/embed.ts:60</a></li>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/6b87b19/packages/discord-utils/src/embed.ts#L60">packages/discord-utils/src/embed.ts:60</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -275,7 +276,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/discord-utils/src/embed.ts#L70">packages/discord-utils/src/embed.ts:70</a></li>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/6b87b19/packages/discord-utils/src/embed.ts#L70">packages/discord-utils/src/embed.ts:70</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -303,6 +304,34 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="sortchannels" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> sort<wbr>Channels</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">sort<wbr>Channels<span class="tsd-signature-symbol">(</span>unsorted<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">APIChannel</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">APIChannel</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/6b87b19/packages/discord-utils/src/sortChannels.ts#L7">packages/discord-utils/src/sortChannels.ts:7</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Sorts an array of text and category channels - <strong>does not support other channel types</strong></p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>unsorted: <span class="tsd-signature-type">APIChannel</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">APIChannel</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
 					<a name="truncateembed" class="tsd-anchor"></a>
 					<h3>truncate<wbr>Embed</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
@@ -312,7 +341,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/0ba71b0/packages/discord-utils/src/embed.ts#L87">packages/discord-utils/src/embed.ts:87</a></li>
+									<li>Defined in <a href="https://github.com/ChatSift/packages/blob/6b87b19/packages/discord-utils/src/embed.ts#L87">packages/discord-utils/src/embed.ts:87</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -370,6 +399,9 @@
 							</li>
 							<li class=" tsd-kind-function tsd-parent-kind-module">
 								<a href="discord_utils.html#ellipsis" class="tsd-kind-icon">ellipsis</a>
+							</li>
+							<li class=" tsd-kind-function tsd-parent-kind-module">
+								<a href="discord_utils.html#sortchannels" class="tsd-kind-icon">sort<wbr>Channels</a>
 							</li>
 							<li class=" tsd-kind-function tsd-parent-kind-module">
 								<a href="discord_utils.html#truncateembed" class="tsd-kind-icon">truncate<wbr>Embed</a>
